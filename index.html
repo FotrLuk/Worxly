@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Worxly — Time & attendance tracking for iPhone</title>
 <meta name="description" content="Worxly tracks work hours, overtime and earnings — automatically by location. For iPhone, no account, data stays on your device.">
-<link rel="icon" href="assets/icon.png"><link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+<link rel="icon" href="assets/icon.png">
 <style>
   :root{
     --bg:#0a1c22; --bg2:#0e262e; --card:rgba(255,255,255,.045);
@@ -128,7 +128,7 @@
   <h1><span data-i="hero_h1a">Tvé hodiny.</span><br><span class="grad" data-i="hero_h1b">Přesně. Automaticky.</span></h1>
   <p data-i="hero_sub">Sleduj pracovní dobu, přesčasy a výdělek — jedním ťuknutím nebo automaticky podle místa. Celé v iPhonu, bez účtu.</p>
   <div class="hero-btns">
-    <a class="btn" href="https://apps.apple.com/app/idXXXXXXXXX" target="_blank" rel="noopener"><svg class="bi-apple" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M16.365 1.43c0 1.14-.42 2.2-1.13 2.99-.83.94-2.18 1.66-3.29 1.57-.14-1.1.43-2.28 1.09-3.02.75-.83 2.05-1.46 3.13-1.54.02.09.03.19.03.29zM20.5 17.02c-.55 1.27-.81 1.84-1.52 2.96-.99 1.56-2.39 3.51-4.12 3.52-1.54.01-1.94-1-4.03-.99-2.09.01-2.53 1.01-4.07.99-1.73-.02-3.06-1.78-4.05-3.34C-.02 15.9-.27 10.5 1.9 7.72c1.1-1.42 2.84-2.32 4.5-2.32 1.7 0 2.77 1 4.03 1 1.22 0 1.96-1 4.03-1 1.47 0 3.03.8 4.14 2.18-3.64 2-3.05 7.2.9 8.44z"/></svg><span data-i="hero_cta">Stáhnout na App Store</span></a>
+    <a class="btn" href="https://apple.co/4wVxXEI" target="_blank" rel="noopener"><svg class="bi-apple" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M16.365 1.43c0 1.14-.42 2.2-1.13 2.99-.83.94-2.18 1.66-3.29 1.57-.14-1.1.43-2.28 1.09-3.02.75-.83 2.05-1.46 3.13-1.54.02.09.03.19.03.29zM20.5 17.02c-.55 1.27-.81 1.84-1.52 2.96-.99 1.56-2.39 3.51-4.12 3.52-1.54.01-1.94-1-4.03-.99-2.09.01-2.53 1.01-4.07.99-1.73-.02-3.06-1.78-4.05-3.34C-.02 15.9-.27 10.5 1.9 7.72c1.1-1.42 2.84-2.32 4.5-2.32 1.7 0 2.77 1 4.03 1 1.22 0 1.96-1 4.03-1 1.47 0 3.03.8 4.14 2.18-3.64 2-3.05 7.2.9 8.44z"/></svg><span data-i="hero_cta">Stáhnout na App Store</span></a>
     <a class="btn ghost" href="#shots" data-i="hero_browse">Prohlédnout appku</a>
   </div>
   <div class="badges">
@@ -218,10 +218,10 @@
     <h2 data-i="faq_title">Časté dotazy</h2>
     <div class="faq">
       <details><summary data-i="q1">Je appka opravdu zdarma?</summary><p data-i="a1">Ano — základní funkce (docházka, hodiny, přesčasy, geofencing, Dynamic Island, widgety) jsou zdarma bez omezení. Pro odemkne projekty, klienty, faktury, CSV export, mzdu a zálohy.</p></details>
-      <details><summary data-i="q2">Kam se ukládají moje data?</summary><p data-i="a2">Výhradně do tvého iPhonu. Worxly nemá server a nikam data neodesílá. Zálohy můžeš exportovat a uložit do umístění, které si sám zvolíš.</p></details>
+      <details><summary data-i="q2">Kam se ukládají moje data?</summary><p data-i="a2">Výhradně do tvého iPhonu. Worxly nemá server a nikam data neodesílá. Volitelné zálohy jdou do tvého vlastního iCloud Drive.</p></details>
       <details><summary data-i="q3">Jak funguje docházka podle místa?</summary><p data-i="a3">Uložíš pracovní místo na mapě, povolíš polohu „Vždy" a zapneš automatické zaznamenávání. Appka pak sama rozpozná příchod a odchod. Poloha se zpracovává jen v zařízení.</p></details>
       <details><summary data-i="q4">Můžu zrušit předplatné kdykoli?</summary><p data-i="a4">Ano — v Nastavení → Apple ID → Předplatná. Přístup k Pro trvá do konce zaplaceného období.</p></details>
-      <details><summary data-i="q5">Funguje bez internetu?</summary><p data-i="a5">Ano, plně offline. Internet je potřeba pouze pro nákup a obnovení Worxly Pro.</p></details>
+      <details><summary data-i="q5">Funguje bez internetu?</summary><p data-i="a5">Ano, plně offline. Internet je potřeba jen pro nákup Pro a zálohy do iCloudu.</p></details>
     </div>
   </div>
 </section>
@@ -249,7 +249,7 @@
 document.getElementById('y').textContent=new Date().getFullYear();
 
 const T = {
-  cs:{caps_label:"Kompletní přehled",caps_title:"Co všechno Worxly umí",g1t:"Sledování času",g1d:"Docházka jedním ťuknutím, časovač projektů, automatické spuštění podle místa (geofencing), rozlišení služební a soukromé cesty, přestávky a ruční úpravy záznamů.",g2t:"Přehledy a přesčasy",g2d:"Denní, týdenní, měsíční i roční přehledy, barevná kalendářová heatmapa, automatická bilance přesčasů, dovolená, nemocenská a dny odměn.",g3t:"Mzda a fakturace",g3d:"Mzdový přehled a historie výplat, hodinové i přesčasové sazby, profesionální PDF faktury s QR platbou, export do CSV i do kalendáře.",g4t:"Projekty, widgety a soukromí",g4d:"Neomezené projekty a klienti s rozpočty, widgety na plochu i zámek, živý časovač v Dynamic Islandu, data jen v zařízení a ruční export záloh.",
+  cs:{caps_label:"Kompletní přehled",caps_title:"Co všechno Worxly umí",g1t:"Sledování času",g1d:"Docházka jedním ťuknutím, časovač projektů, automatické spuštění podle místa (geofencing), rozlišení služební a soukromé cesty, přestávky a ruční úpravy záznamů.",g2t:"Přehledy a přesčasy",g2d:"Denní, týdenní, měsíční i roční přehledy, barevná kalendářová heatmapa, automatická bilance přesčasů, dovolená, nemocenská a dny odměn.",g3t:"Mzda a fakturace",g3d:"Mzdový přehled a historie výplat, hodinové i přesčasové sazby, profesionální PDF faktury s QR platbou, export do CSV i do kalendáře.",g4t:"Projekty, widgety a soukromí",g4d:"Neomezené projekty a klienti s rozpočty, widgety na plochu i zámek, živý časovač v Dynamic Islandu, data jen v zařízení a zálohy do iCloudu.",
     shots_label:"Podívej se dovnitř",shots_title:"Navrženo pro každodenní použití",cap_home:"Přehled dne",cap_overview:"Docházka",cap_projects:"Projekty",cap_calendar:"Kalendář",cap_analytics:"Analytika",cap_wage:"Mzda a výdělek",nav_features:"Funkce",nav_shots:"Náhledy",nav_pricing:"Ceny",nav_support:"Podpora",nav_download:"Stáhnout",
     hero_h1a:"Tvé hodiny.",hero_h1b:"Přesně. Automaticky.",
     hero_sub:"Sleduj pracovní dobu, přesčasy a výdělek — jedním ťuknutím nebo automaticky podle místa. Celé v iPhonu, bez účtu.",
@@ -272,14 +272,14 @@ const T = {
     p_note:"Roční předplatné: 1 190 Kč/rok · Nákup a správa přes App Store",
     faq_title:"Časté dotazy",
     q1:"Je appka opravdu zdarma?",a1:"Ano — základ (docházka, hodiny, přesčasy, geofencing, widgety na plochu) je zdarma bez omezení. Pro odemkne live widgety (zámek + Dynamic Island), kalendář, projekty, klienty, faktury, CSV export, mzdu a zálohy.",
-    q2:"Kam se ukládají moje data?",a2:"Výhradně do tvého iPhonu. Worxly nemá server a nikam data neodesílá. Zálohy můžeš exportovat a uložit do umístění, které si sám zvolíš.",
+    q2:"Kam se ukládají moje data?",a2:"Výhradně do tvého iPhonu. Worxly nemá server a nikam data neodesílá. Volitelné zálohy jdou do tvého vlastního iCloud Drive.",
     q3:"Jak funguje docházka podle místa?",a3:"Uložíš pracovní místo na mapě, povolíš polohu „Vždy\" a zapneš automatické zaznamenávání. Appka pak sama rozpozná příchod a odchod. Poloha se zpracovává jen v zařízení.",
     q4:"Můžu zrušit předplatné kdykoli?",a4:"Ano — v Nastavení → Apple ID → Předplatná. Přístup k Pro trvá do konce zaplaceného období.",
-    q5:"Funguje bez internetu?",a5:"Ano, plně offline. Internet je potřeba pouze pro nákup a obnovení Worxly Pro.",
+    q5:"Funguje bez internetu?",a5:"Ano, plně offline. Internet je potřeba jen pro nákup Pro a zálohy do iCloudu.",
     sup_title:"Podpora",sup_text:"Máš dotaz, nápad nebo narazil jsi na problém? Ozvi se — odpovídám osobně.",
     f_privacy:"Zásady ochrany soukromí",f_terms:"Podmínky použití"
   },
-  en:{caps_label:"Full overview",caps_title:"Everything Worxly does",g1t:"Time tracking",g1d:"One-tap attendance, project timers, automatic start by location (geofencing), business vs. personal trips, breaks and manual edits.",g2t:"Overviews & overtime",g2d:"Daily, weekly, monthly and yearly overviews, a color calendar heat-map, automatic overtime balance, vacation, sick days and bonus days.",g3t:"Wage & invoicing",g3d:"Wage dashboard and payslip history, hourly and overtime rates, professional PDF invoices with QR payment, CSV and calendar export.",g4t:"Projects, widgets & privacy",g4d:"Unlimited projects and clients with budgets, Home and Lock Screen widgets, a live Dynamic Island timer, on-device data and manual backup export.",
+  en:{caps_label:"Full overview",caps_title:"Everything Worxly does",g1t:"Time tracking",g1d:"One-tap attendance, project timers, automatic start by location (geofencing), business vs. personal trips, breaks and manual edits.",g2t:"Overviews & overtime",g2d:"Daily, weekly, monthly and yearly overviews, a color calendar heat-map, automatic overtime balance, vacation, sick days and bonus days.",g3t:"Wage & invoicing",g3d:"Wage dashboard and payslip history, hourly and overtime rates, professional PDF invoices with QR payment, CSV and calendar export.",g4t:"Projects, widgets & privacy",g4d:"Unlimited projects and clients with budgets, Home and Lock Screen widgets, a live Dynamic Island timer, on-device data and iCloud backups.",
     shots_label:"Take a look inside",shots_title:"Built for everyday use",cap_home:"Daily overview",cap_overview:"Attendance",cap_projects:"Projects",cap_calendar:"Calendar",cap_analytics:"Analytics",cap_wage:"Wage & earnings",nav_features:"Features",nav_shots:"Preview",nav_pricing:"Pricing",nav_support:"Support",nav_download:"Download",
     hero_h1a:"Your hours.",hero_h1b:"Precise. Automatic.",
     hero_sub:"Track work hours, overtime and earnings — in one tap or automatically by location. All on your iPhone, no account.",
@@ -302,14 +302,14 @@ const T = {
     p_note:"Yearly plan: 1 190 CZK/yr · Purchase & manage via the App Store",
     faq_title:"Frequently asked",
     q1:"Is the app really free?",a1:"Yes — the basics (attendance, hours, overtime, geofencing, Home Screen widgets) are free with no limits. Pro unlocks live widgets (Lock Screen + Dynamic Island), calendar, projects, customers, invoices, CSV export, wage and backups.",
-    q2:"Where is my data stored?",a2:"Only on your iPhone. Worxly has no server and sends nothing anywhere. You can export backups and save them to a location you choose.",
+    q2:"Where is my data stored?",a2:"Only on your iPhone. Worxly has no server and sends nothing anywhere. Optional backups go to your own iCloud Drive.",
     q3:"How does location tracking work?",a3:"Save a work place on the map, allow location \"Always\" and enable automatic recording. The app then detects arrival and departure by itself. Location is processed on device only.",
     q4:"Can I cancel the subscription anytime?",a4:"Yes — in Settings → Apple ID → Subscriptions. Pro access lasts until the end of the paid period.",
-    q5:"Does it work without internet?",a5:"Yes, fully offline. Internet is only needed to purchase or restore Worxly Pro.",
+    q5:"Does it work without internet?",a5:"Yes, fully offline. Internet is only needed to buy Pro and for iCloud backups.",
     sup_title:"Support",sup_text:"Have a question, idea or ran into a problem? Get in touch — I reply personally.",
     f_privacy:"Privacy Policy",f_terms:"Terms of Use"
   },
-  de:{caps_label:"Komplettüberblick",caps_title:"Was Worxly alles kann",g1t:"Zeiterfassung",g1d:"Anwesenheit mit einem Tipp, Projekt-Timer, automatischer Start nach Ort (Geofencing), dienstlich vs. privat, Pausen und manuelle Änderungen.",g2t:"Übersichten & Überstunden",g2d:"Tages-, Wochen-, Monats- und Jahresübersichten, farbige Kalender-Heatmap, automatischer Überstundensaldo, Urlaub, Kranktage und Bonustage.",g3t:"Lohn & Rechnungen",g3d:"Lohn-Dashboard und Gehaltsverlauf, Stunden- und Überstundensätze, professionelle PDF-Rechnungen mit QR-Zahlung, CSV- und Kalender-Export.",g4t:"Projekte, Widgets & Datenschutz",g4d:"Unbegrenzte Projekte und Kunden mit Budgets, Home- und Sperrbildschirm-Widgets, Live-Timer im Dynamic Island, Daten nur auf dem Gerät und manueller Backup-Export.",
+  de:{caps_label:"Komplettüberblick",caps_title:"Was Worxly alles kann",g1t:"Zeiterfassung",g1d:"Anwesenheit mit einem Tipp, Projekt-Timer, automatischer Start nach Ort (Geofencing), dienstlich vs. privat, Pausen und manuelle Änderungen.",g2t:"Übersichten & Überstunden",g2d:"Tages-, Wochen-, Monats- und Jahresübersichten, farbige Kalender-Heatmap, automatischer Überstundensaldo, Urlaub, Kranktage und Bonustage.",g3t:"Lohn & Rechnungen",g3d:"Lohn-Dashboard und Gehaltsverlauf, Stunden- und Überstundensätze, professionelle PDF-Rechnungen mit QR-Zahlung, CSV- und Kalender-Export.",g4t:"Projekte, Widgets & Datenschutz",g4d:"Unbegrenzte Projekte und Kunden mit Budgets, Home- und Sperrbildschirm-Widgets, Live-Timer im Dynamic Island, Daten nur auf dem Gerät und iCloud-Backups.",
     shots_label:"Blick nach innen",shots_title:"Für den täglichen Einsatz",cap_home:"Tagesübersicht",cap_overview:"Anwesenheit",cap_projects:"Projekte",cap_calendar:"Kalender",cap_analytics:"Analysen",cap_wage:"Lohn & Verdienst",nav_features:"Funktionen",nav_shots:"Vorschau",nav_pricing:"Preise",nav_support:"Support",nav_download:"Laden",
     hero_h1a:"Deine Stunden.",hero_h1b:"Präzise. Automatisch.",
     hero_sub:"Erfasse Arbeitszeit, Überstunden und Verdienst — mit einem Tipp oder automatisch nach Ort. Alles auf dem iPhone, ohne Account.",
@@ -332,10 +332,10 @@ const T = {
     p_note:"Jahresabo: 1 190 CZK/Jahr · Kauf & Verwaltung über den App Store",
     faq_title:"Häufige Fragen",
     q1:"Ist die App wirklich kostenlos?",a1:"Ja — die Basis (Anwesenheit, Stunden, Überstunden, Geofencing, Home-Screen-Widgets) ist ohne Limit gratis. Pro schaltet Live-Widgets (Sperrbildschirm + Dynamic Island), Kalender, Projekte, Kunden, Rechnungen, CSV-Export, Lohn und Backups frei.",
-    q2:"Wo werden meine Daten gespeichert?",a2:"Nur auf deinem iPhone. Worxly hat keinen Server und sendet nichts. Backups können exportiert und an einem selbst gewählten Ort gespeichert werden.",
+    q2:"Wo werden meine Daten gespeichert?",a2:"Nur auf deinem iPhone. Worxly hat keinen Server und sendet nichts. Optionale Backups gehen in dein eigenes iCloud Drive.",
     q3:"Wie funktioniert die Erfassung nach Ort?",a3:"Speichere einen Arbeitsort auf der Karte, erlaube Standort „Immer\" und aktiviere die automatische Erfassung. Die App erkennt Ankunft und Verlassen selbst. Der Standort wird nur auf dem Gerät verarbeitet.",
     q4:"Kann ich das Abo jederzeit kündigen?",a4:"Ja — in Einstellungen → Apple-ID → Abos. Der Pro-Zugang läuft bis zum Ende der bezahlten Periode.",
-    q5:"Funktioniert es ohne Internet?",a5:"Ja, komplett offline. Internet wird nur für den Kauf oder die Wiederherstellung von Worxly Pro benötigt.",
+    q5:"Funktioniert es ohne Internet?",a5:"Ja, komplett offline. Internet wird nur für den Pro-Kauf und iCloud-Backups benötigt.",
     sup_title:"Support",sup_text:"Frage, Idee oder ein Problem? Melde dich — ich antworte persönlich.",
     f_privacy:"Datenschutzerklärung",f_terms:"Nutzungsbedingungen"
   }
